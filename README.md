@@ -35,7 +35,8 @@ After executing you will be asked:
   2. Whether you want to see the distribution histogram
 
 # Example: 
-
+![Output](histogramQRNG.png)
+![histogram](Screenshot 2025-05-30 145822.png)
 
 A histogram will pop up, showing the number of 0s and 1s over multiple shots. 
 
