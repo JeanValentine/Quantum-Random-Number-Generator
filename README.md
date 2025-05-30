@@ -30,4 +30,30 @@
     ```bash 
     python qrng.py 
 
-    
+After executing you will be asked: 
+  1. How many quantum random bits to generate
+  2. Whether you want to see the distribution histogram
+
+# Example: 
+
+
+A histogram will pop up, showing the number of 0s and 1s over multiple shots. 
+
+# How it works
+  1. A **Hadamard gate** ('H') is applied to the qubit, placing it in a superposition state (equal chance of 0 or 1)
+  2. The qubit is **measured** and collapses it into either 0 or 1
+  3. The process is repeated n times to generate a random bitstring
+  4. A histogram can show the frequency distribution of 0s and 1s across many runs
+
+This makes use of the **AerSimulator** backend - a local quantum simulator provided by Qiskit. 
+
+# Why Quantum Randomness? 
+  Unlike classical random number generators (which use algorithms and are ultimately deterministic), quantum randomness comes from fundamental physical uncertainty. Every bit here is born from **true quantum indeterminacy**. **THIS IS NOT A MATHEMATICAL TRICK**. 
+
+## Author 
+
+**@JeanValentine**
+
+This project was developed independently as a personal deep-dive into quantum computing and Python. 
+
+Want to learn quantum computing or build your own projects? Try it out for yourself and experiment. 
