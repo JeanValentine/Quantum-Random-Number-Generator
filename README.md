@@ -36,7 +36,7 @@ After executing you will be asked:
 
 # Example: 
 ![Output](histogramQRNG.png)
-![histogram](Screenshot 2025-05-30 145822.png)
+![histogram](outputQRNG.png)
 
 A histogram will pop up, showing the number of 0s and 1s over multiple shots. 
 
